@@ -1,0 +1,1 @@
+g++ granular.cpp vectormath.cpp -o granular -lm -g -w

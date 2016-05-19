@@ -82,10 +82,10 @@ for i in range(bonds.shape[0]):
 
 fig, ax = plt.subplots()
 
-#~ out2 = circles(pts[:,0],pts[:,1],1.75,c=pts[:,2],cmap=cm.Dark2,alpha=0.1,ec=[0,0,0,0])
+out2 = circles(pts[:,0],pts[:,1],2.1,c=pts[:,2],cmap=cm.Dark2,alpha=0.1,ec=[0,0,0,0])
 out = circles(pts[:,0],pts[:,1],1.0,c=pts[:,2],cmap=cm.Dark2,ec=[0,0,0,0])
 
-lc = mc.LineCollection(lbonds,colors='r',alpha=0.5)
+lc = mc.LineCollection(lbonds,colors='r',alpha=0.7)
 ax.add_collection(lc)
 
 plt.xlim(0,5*20)
